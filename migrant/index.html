@@ -1,0 +1,627 @@
+<!DOCTYPE HTML>
+<!--
+    Prologue by HTML5 UP
+    html5up.net | @ajlkn
+    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+    <head>
+        <title>Migrant</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+        <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+        <link rel="stylesheet" href="assets/css/main.css" />
+        <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+        <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+        <link rel="icon" href="##">
+
+        <!-- <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">  -->
+
+        <style>
+
+        @media screen and (min-width: 737px) {
+        .zoom_img1 img{
+            -moz-transition:-moz-transform 0.3s ease-in;
+            -webkit-transition:-webkit-transform 0.3s ease-in;
+            -o-transition:-o-transform 0.3s ease-in;
+            -ms-transition:-ms-transform 0.3s ease-in;
+        }
+        .zoom_img1 img:hover{
+            -moz-transform:scale(2);
+            -webkit-transform:scale(2);
+            -o-transform:scale(2);
+            -ms-transform: scale(2);
+
+        }
+        .zoom_img2 img{
+            -moz-transition:-moz-transform 0.3s ease-in;
+            -webkit-transition:-webkit-transform 0.3s ease-in;
+            -o-transition:-o-transform 0.3s ease-in;
+            -ms-transition:-ms-transform 0.3s ease-in;
+            transform-origin: left;
+            -moz-transform-origin: left;
+            -webkit-transform-origin: left;
+            -o-transform-origin: left;
+            -ms-transform-origin: left;
+        }
+        .zoom_img2 img:hover{
+            -moz-transform:scale(2);
+            -webkit-transform:scale(2);
+            -o-transform:scale(2);
+            -ms-transform: scale(2);
+
+        }
+        .zoom_img3 img{
+            -moz-transition:-moz-transform 0.3s ease-in;
+            -webkit-transition:-webkit-transform 0.3s ease-in;
+            -o-transition:-o-transform 0.3s ease-in;
+            -ms-transition:-ms-transform 0.3s ease-in;
+            transform-origin: right;
+            -moz-transform-origin: right;
+            -webkit-transform-origin: right;
+            -o-transform-origin: right;
+            -ms-transform-origin: right;
+        }
+        .zoom_img3 img:hover{
+            -moz-transform:scale(2);
+            -webkit-transform:scale(2);
+            -o-transform:scale(2);
+            -ms-transform: scale(2);
+        }
+        }
+
+        </style>
+
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-90304884-1', 'auto');
+          ga('send', 'pageview');
+
+        </script>
+
+
+
+        <script type="text/javascript">
+            function toggleMe(a){
+            var e=document.getElementById(a);
+            if(!e)return true;
+            if(e.style.display=="none"){
+            e.style.display="block"
+            }
+            else{
+            e.style.display="none"
+            }
+            return true;
+            }
+        </script>
+
+
+
+
+    </head>
+    <body>
+
+        <!-- Header -->
+            <div id="header">
+
+                <div class="top">
+
+                    <!-- Logo -->
+                        <!-- <div id="logo">
+                            <span class="image profile"><img src="images/profile.jpg" alt="" /></span>
+                            <h1 id="title">Jianyuan Jet Yu</h1>
+
+                            <p>National Taiwan University<br> Ph.D.</p> 
+                        </div> -->
+
+                    <!-- Nav -->
+                        <nav id="nav">
+                            <!--
+
+                                Prologue's nav expects links in one of two formats:
+
+                                1. Hash link (scrolls to a different section within the page)
+
+                                   <li><a href="#foobar" id="foobar-link" class="icon fa-whatever-icon-you-want skel-layers-ignoreHref"><span class="label">Foobar</span></a></li>
+
+                                2. Standard link (sends the user to another page/site)
+
+                                   <li><a href="http://foobar.tld" id="foobar-link" class="icon fa-whatever-icon-you-want"><span class="label">Foobar</span></a></li>
+
+                            -->
+                            <ul>
+                                <li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Intro</span></a></li>
+                                <li><a href="#abstract" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-paper-plane">Abstract</span></a></li>
+                                <li><a href="#overview" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-paper-plane">Overview</span></a></li>
+                                <li><a href="#relatedWork" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-folder-open">Related Work</span></a></li>
+                                <li><a href="#problem" id="material-link" class="skel-layers-ignoreHref"><span class="icon fa-lightbulb-o">Problem Formulation</span></a></li>
+                                <!-- <li><a href="#course" id="course-link" class="skel-layers-ignoreHref"><span class="icon fa-cubes">Course</span></a></li> -->
+                                <li><a href="#approach" id="publication-link" class="skel-layers-ignoreHref"><span class="icon fa-key">Approach</span></a></li>
+                                <li><a href="#eval" id="research-link" class="skel-layers-ignoreHref"><span class="icon fa-bar-chart">Perform Eval</span></a></li>
+                                <li><a href="#references" id="research-link" class="skel-layers-ignoreHref"><span class="icon fa-bookmark">References</span></a></li>
+                                <li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-user">Contact</span></a></li>
+                            </ul>
+                        </nav>
+
+                </div>
+
+                <div class="bottom">
+
+                    <!-- Social Icons -->
+                        <ul class="icons">
+                            <!--< li><a href="https://www.facebook.com/jet.yu.904" class="icon fa-facebook-official" target="_blank"><span class="label">Facebook</span></a></li> -->
+                            <li><a href="../index.html" class="icon fa-user"><span class="label">Resume</span></a></li>
+                            <li><a href="mailto:r03544029@ntu.edu.tw" class="icon fa-envelope"><span class="label">Email</span></a></li> 
+                            <!-- <li><a href="https://www.linkedin.com/in/yujianyuanhaha" class="icon fa-linkedin-square" target="_blank"><span class="label">Linkedin</span></a></li> -->
+                            <li><a href="https://github.com/mirandayaoyao" class="icon fa-github" target="_blank"><span class="label" target="_blank">Github</span></a></li>
+                            <!-- <li><a href="https://www.instagram.com/jet.yu.904/" class="icon fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>  -->
+
+                        </ul>
+
+                </div>
+
+            </div>
+
+        <!-- Main -->
+            <div id="main">
+
+                <!-- Intro -->
+                    <section id="top" class="one dark cover">
+                        <div class="container">
+
+                            <header>
+                                <h2 class="alt" align="center">Analysis of young migrant workers` survival status and  strategies in Beijing</h2>
+                                <h4 class="alt" align="center">ongoing work, released by March 2019</h2>
+
+                               
+                                <p  align="center">
+                                    
+                                    <a href="https://docs.google.com/document/d/1GEK0juuee2AMOIjilthU_DhZodHicdVDcd1QuA1Y350/edit?usp=sharing"> [Abstract]</a>
+                                    [Slides] 
+                                    [Full Paper] 
+                                   
+                                    <br/>
+                                <p  align="center"> <a href="http://www.isdrsconference.org/">Undergraduate thesis </a>,  by <u>Yaolin (Miranda) Chen<br />
+                                <p  align="center"> Key Word:young migrant workers, urban-rural inequality, social capital， embeddedness and detachment，social network.
+                                                    <br />
+                                
+                            </header>
+
+                            <footer>
+                                <a href="#about" class="button scrolly">Welcome</a>
+                            </footer>
+
+                        </div>
+                    </section>
+
+                <!-- About Me -->
+
+
+
+                  <section id="abstract" class="two">
+                        <div class="container">
+
+                            <header>
+                                <h2 align="center">Abstract</h2>
+                            </header>
+
+                            <div class="11u 12u$(mobile)"><ul align="left" style="list-style-type:disc;padding-left:20px"><font size="4">
+                           With the young migrant workers in Beijing as the object of study, this thesis examines why their living status are laborious but enriched through
+                            participant observation and interviews.  Moreover, in the perspective of capital, this thesis investigates the method and process that they make use of typical
+                              resources to convert their culture and social capital into the economic capital. </br>
+                            Based on the perspective of embeddedness, this thesis also leverages the concept of social network to investigate current 
+                            situation of young migrant workers under a view of deintercalation and embeddability in network.
+
+
+
+
+
+                        </div>
+                    </section>
+
+
+
+                    <section id="overview" class="two">
+                        <div class="container">
+
+                            <header>
+                                <h2 align="center">Overview</h2>
+                            </header>
+
+                            <div class="11u 12u$(mobile)"><ul align="left" style="list-style-type:disc;padding-left:20px"><font size="4">
+                             <div class="4u 12u$(mobile)">
+                                    <img style='height: 95%; width: 95%; object-fit: contain' src="./images/shangwei1.jpeg">
+                                     <img style='height: 95%; width: 95%; object-fit: contain' src="./images/shangwei2.jpeg">
+                                    
+                                </div>
+                           
+
+
+
+                        </div>
+                    </section>
+
+
+                    <section id="relatedWork" class="two">
+                        <div class="container">
+
+                            <header>
+                                <h2 align="center">Related Work</h2>
+                            </header>
+
+                            <div class="11u 12u$(mobile)"><ul align="left" style="list-style-type:disc;padding-left:20px"><font size="4">
+
+                                <div class="4u 12u$(mobile)">
+                                    <img style='height: 95%; width: 95%; object-fit: contain' src="./images/baozangyan.jpg">
+                                </div>
+                                
+                                <div class="8u 12u$(mobile)">
+                                    <h4 align="left" style="line-height:120%;"><font size="4"> </font></h4>
+                                    <div style="line-height:60%;"><br></div>
+                                    <ul align="left" style="list-style-type:disc;padding-left:20px">
+                                        <font size="4">
+                                            Baozangyan, Taipei
+                                        </font>
+                                    </ul>
+                                </div>
+                                    
+                            </div>
+
+
+
+                        </div>
+                        <hr>
+                    </section>
+
+<!-- Materials -->
+
+
+
+
+                                <!-- Project -->
+                    <section id="problem" class="two">
+                        <div class="container">
+
+                            <header>
+                                <h2 align="center">Problem Formulation</h2>
+                            </header>
+
+
+                            <h3 align="left"><font size="5"> Assumptions </font></h3>
+                            <div class="row">
+                                <div class="4u 12u$(mobile)"> <img style='height: 95%; width: 95%; object-fit: contain' src="images/#"></div>
+
+                                <div class="8u 12u$(mobile)">
+                                    <h4 align="left" style="line-height:120%;"><font size="4"> </font></h4>
+                                    <div style="line-height:60%;"><br></div>
+                                    <ul align="left" style="list-style-type:disc;padding-left:20px">
+                                        <font size="4">
+
+
+
+                                        </font>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+
+
+                            <h3 align="left">
+                                <font size="5">#</font>
+                                <font size="3"> </font>
+                            </h3>
+                            <div class="row">
+                                <div class="4u 12u$(mobile)">
+                                    <img style='height: 95%; width: 95%; object-fit: contain' src="images/#.gif">
+                                    <img style='height: 95%; width: 95%; object-fit: contain' src="images/#.jpg">
+                                </div>
+                            
+                                <div class="8u 12u$(mobile)">
+                                    <h4 align="left" style="line-height:120%;">
+                                        <font size="4"> </font>
+                                    </h4>
+                                    <div style="line-height:60%;"><br></div>
+                                    <ul align="left" style="list-style-type:disc;padding-left:20px">
+                                        <font size="4">
+                                            <!-- <li style="line-height:90%;">Teamwork with Chun Hsiung Wang and Yun-Pu Wu.</li> -->
+
+
+                                        </font>
+                                    </ul>
+                                </div>
+                            </div>
+                            <hr>
+
+
+
+                        </div>
+                    </section>
+
+
+
+
+
+
+
+
+
+                <!-- Research -->
+                    <section id="approach" class="three">
+                        <div class="container">
+
+                            <header>
+                                <h2 align="center">Approach</h2>
+                            </header>
+
+
+                            <h3 align="left"><font size="5">#</font></h3>
+                                <div class="row">
+                                    <div class="8u 12u$(mobile)"><font size="4">
+                                        <ul align="left" style="list-style-type:disc;padding-left:20px">
+                                            </i></li>
+                                        </ul>
+                                        </font>
+                                    </div>
+
+                                    <div class="4u 12u$(mobile)">
+                                        <div class="zoom_img3"><img style='height: 100%; width: 100%; object-fit: contain' src="##"></div>
+                                    </div>
+                                </div>
+
+                            
+                            <h3 align="left"><font size="5">#</font></h3>
+                                <div class="row">
+                                    <div class="8u 12u$(mobile)"><font size="4">
+                                        <ul align="left" style="list-style-type:disc;padding-left:20px">
+                                   
+                                        </i></li>
+                                        </ul>
+                                        </font>
+                                    </div>
+
+                                    <div class="4u 12u$(mobile)">
+                                        <iframe width="" height="250" src="##" 
+                                        frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+
+                            <h3 align="left"><font size="5">#</font></h3>
+                                <div class="row">
+                                    <div class="8u 12u$(mobile)"><font size="4">
+                                        <ul align="left" style="list-style-type:disc;padding-left:20px">
+
+                                        </i></li>
+                                        </ul>
+                                        </font>
+                                    </div>
+
+                                    <div class="4u 12u$(mobile)">
+                                        <div class="zoom_img3"><img style='height:100%; width: 100%; object-fit: contain' src="images/#"></div>
+                                    </div>
+                                </div>
+                                <hr>
+
+
+
+                    </section>
+
+
+
+                <section id="eval" class="two">
+                        <div class="container">
+
+                            <header>
+                                <h2 align="center">#</h2>
+                            </header>
+
+
+                            <h3 align="left"><font size="5"> # </font></h3>
+                            <div class="row">
+                                    
+                                <div class="8u 12u$(mobile)">
+                                    <h4 align="left" style="line-height:120%;"><font size="4"> </font></h4>
+                                    <div style="line-height:60%;"><br></div>
+                                    <ul align="left" style="list-style-type:disc;padding-left:20px">
+                                        <font size="4">
+                                        #
+                                        </font>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+
+
+                            <h3 align="left">
+                                <font size="5">#</font>
+                                <font size="3"> </font>
+                            </h3>
+                            <div class="row">
+                                <div class="4u 12u$(mobile)">
+                                    <img style='height: 95%; width: 95%; object-fit: contain' src="images/#">
+                                    <img style='height: 95%; width: 95%; object-fit: contain' src="images/#">
+                                </div>
+                            
+                                <div class="8u 12u$(mobile)">
+                                    <h4 align="left" style="line-height:120%;">
+                                        <font size="4"> </font>
+                                    </h4>
+                                    <div style="line-height:60%;"><br></div>
+                                    <ul align="left" style="list-style-type:disc;padding-left:20px">
+                                        <font size="4">
+                                            #
+                                        </font>
+                                    </ul>
+                                </div>
+                            </div>
+                            <hr>
+
+
+
+                        </div>
+                    </section>
+
+
+                                    <!-- Research -->
+                    <section id="furtherWork" class="three">
+                        <div class="container">
+
+                            <header>
+                                <h2 align="center">Future Work</h2>
+                            </header>
+
+
+                            <h3 align="left"><font size="5"> </font></h3>
+                                <div class="row">
+                                    <div class="8u 12u$(mobile)"><font size="4">
+                                        <ul align="left" style="list-style-type:disc;padding-left:20px">
+                                                #
+
+
+                                        </i></li>
+                                        </ul>
+                                        </font>
+                                    </div>
+
+                                    <div class="4u 12u$(mobile)">
+                                        <div class="zoom_img3"><img style='height: 100%; width: 100%; object-fit: contain' src="#"></div>
+                                    </div>
+                                </div>
+
+                            
+
+
+
+                    </section>
+
+
+
+
+                    <!-- Publication -->
+                    <section id="references" class="three">
+                        <div class="container">
+                    
+                            <header>
+                                <h2 align="center">References</h2>
+                            </header>
+                    
+                            <h3 align="left">
+                                <font size="5">Papers</font>
+                            </h3>
+                            <ul align="left" style="list-style-type:disc;padding-left:20px">
+
+                                
+                                <font size="2">
+                                     #
+                                </font>
+                                
+
+                    
+                                
+                            </ul>
+                    
+                            <h3 align="left">
+                                <font size="5">Blogs</font>
+                            </h3>
+                            <ul align="left" style="list-style-type:disc;padding-left:20px">
+                                <li>
+                                    <font size="2"> <a ref="##">
+                                   #</a></font>
+                                </li>
+                            </ul>  
+                            </ol>
+                        </div>
+                    </section>
+
+
+
+                <!-- Contact -->
+                    <section id="contact" class="seven">
+                        <div class="container">
+
+                            <header>
+                                <h2 align="center">Contact</h2>
+                            </header>
+
+                            <div class="row">
+
+                                <div class="5u 12u$(mobile)">
+                                    <div style="line-height:30%;"><br></div>
+                                    <h3 align="left"><font size="5">Yaolin (Miranda) Chen</font></h3>
+                                    <ul class="icons" align="left">
+                                        <li><a href="../index.html" class="icon fa-user"><span class="label">Resume</span></a></li>
+										
+                                        <li><a href="https://github.com/mirandayaoyao" class="icon fa-github" target="_blank"><span class="label" target="_blank">Github</span></a></li>
+                                        <li><a href="mailto:r03544029@ntu.edu.tw" class="icon fa-envelope"><span class="label">Email</span></a></li>
+
+                                        
+                                        
+                                    </ul>
+
+                                    <p align="left"><font size="4"> Thanks for advisor:
+                                        
+                                        <br> Dr. <a href="http://www.bp.ntu.edu.tw/?PID=108"> <u>Yuan Lu</u></a>, <font size="2">Instructor, NTU</font>
+                                        
+                                        
+                                        
+                                    </font></p>
+
+                            </div>
+                                <div class="3u 12u$(mobile)">
+                            </div>
+                                <div class="3u 12u$(mobile)">
+                                     <a class="image fit"><img src="./images/profile_c.jpg" /></a> 
+                                </div>
+
+                                <div image align="right">
+                                    <div class="4u 12u$(mobile)">
+                                        <img style='height: 40%; width: 40%; object-fit: contain' src="images/logo2.svg" >
+                                    </div>
+                                </div>
+
+
+                                <footer>
+                                <a href="../index.html" class="button scrolly">Back to Main</a>
+                            </footer>
+
+                    </section>
+            </div>
+
+        <!-- Footer -->
+            <div id="footer">
+
+                <!-- Copyright -->
+                    <ul class="copyright">
+                        <li>Copyright &copy; 2018 Yaolin (Miranda) Chen</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                    </ul>
+
+            </div>
+
+        <!-- Scripts -->
+            <script src="assets/js/jquery.min.js"></script>
+            <script src="assets/js/jquery.scrolly.min.js"></script>
+            <script src="assets/js/jquery.scrollzer.min.js"></script>
+            <script src="assets/js/skel.min.js"></script>
+            <script src="assets/js/util.js"></script>
+            <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+            <script src="assets/js/main.js"></script>
+
+
+            <!-- Global site tag (gtag.js) - Google Analytics -->
+            <!--need to update to computing.vt.edus -->
+            <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126742429-1"></script>
+            <script>
+                window.dataLayer = window.dataLayer || [];
+                function gtag() { dataLayer.push(arguments); }
+                gtag('js', new Date());
+
+                gtag('config', 'UA-126742429-1');
+            </script>
+
+
+    </body>
+</html>
