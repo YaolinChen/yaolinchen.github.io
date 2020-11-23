@@ -1,0 +1,489 @@
+<!DOCTYPE HTML>
+<!--
+    Prologue by HTML5 UP
+    html5up.net | @ajlkn
+    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+    <head>
+        <title>Housing</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+        <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+        <link rel="stylesheet" href="assets/css/main.css" />
+        <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+        <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+        <link rel="icon" href="images/bannerHead.jpg">
+
+        <!-- <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">  -->
+
+        <style>
+
+        @media screen and (min-width: 737px) {
+        .zoom_img1 img{
+            -moz-transition:-moz-transform 0.3s ease-in;
+            -webkit-transition:-webkit-transform 0.3s ease-in;
+            -o-transition:-o-transform 0.3s ease-in;
+            -ms-transition:-ms-transform 0.3s ease-in;
+        }
+        .zoom_img1 img:hover{
+            -moz-transform:scale(2);
+            -webkit-transform:scale(2);
+            -o-transform:scale(2);
+            -ms-transform: scale(2);
+
+        }
+        .zoom_img2 img{
+            -moz-transition:-moz-transform 0.3s ease-in;
+            -webkit-transition:-webkit-transform 0.3s ease-in;
+            -o-transition:-o-transform 0.3s ease-in;
+            -ms-transition:-ms-transform 0.3s ease-in;
+            transform-origin: left;
+            -moz-transform-origin: left;
+            -webkit-transform-origin: left;
+            -o-transform-origin: left;
+            -ms-transform-origin: left;
+        }
+        .zoom_img2 img:hover{
+            -moz-transform:scale(2);
+            -webkit-transform:scale(2);
+            -o-transform:scale(2);
+            -ms-transform: scale(2);
+
+        }
+        .zoom_img3 img{
+            -moz-transition:-moz-transform 0.3s ease-in;
+            -webkit-transition:-webkit-transform 0.3s ease-in;
+            -o-transition:-o-transform 0.3s ease-in;
+            -ms-transition:-ms-transform 0.3s ease-in;
+            transform-origin: right;
+            -moz-transform-origin: right;
+            -webkit-transform-origin: right;
+            -o-transform-origin: right;
+            -ms-transform-origin: right;
+        }
+        .zoom_img3 img:hover{
+            -moz-transform:scale(2);
+            -webkit-transform:scale(2);
+            -o-transform:scale(2);
+            -ms-transform: scale(2);
+        }
+        }
+
+        </style>
+
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-90304884-1', 'auto');
+          ga('send', 'pageview');
+
+        </script>
+
+
+
+        <script type="text/javascript">
+            function toggleMe(a){
+            var e=document.getElementById(a);
+            if(!e)return true;
+            if(e.style.display=="none"){
+            e.style.display="block"
+            }
+            else{
+            e.style.display="none"
+            }
+            return true;
+            }
+        </script>
+
+
+
+
+    </head>
+    <body>
+
+        <!-- Header -->
+            <div id="header">
+
+                <div class="top">
+
+                    <!-- Logo -->
+                        <!-- <div id="logo">
+                            <span class="image profile"><img src="images/profile.jpg" alt="" /></span>
+                            <h1 id="title">Jianyuan Jet Yu</h1>
+
+                            <p>National Taiwan University<br> Ph.D.</p> 
+                        </div> -->
+
+                    <!-- Nav -->
+                        <nav id="nav">
+                            <!--
+
+                                Prologue's nav expects links in one of two formats:
+
+                                1. Hash link (scrolls to a different section within the page)
+
+                                   <li><a href="#foobar" id="foobar-link" class="icon fa-whatever-icon-you-want skel-layers-ignoreHref"><span class="label">Foobar</span></a></li>
+
+                                2. Standard link (sends the user to another page/site)
+
+                                   <li><a href="http://foobar.tld" id="foobar-link" class="icon fa-whatever-icon-you-want"><span class="label">Foobar</span></a></li>
+
+                            -->
+                            <ul>
+                                <li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Intro</span></a></li>
+                                <li><a href="#overview" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-paper-plane">Overview</span></a></li>
+                                <li><a href="#relatedWork" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-folder-open">Related Work</span></a></li>
+                                <li><a href="#location" id="material-link" class="skel-layers-ignoreHref"><span class="icon fa-lightbulb-o">Location Analysis</span></a></li>
+                                <!-- <li><a href="#course" id="course-link" class="skel-layers-ignoreHref"><span class="icon fa-cubes">Course</span></a></li> -->
+                                <li><a href="#Definition" id="publication-link" class="skel-layers-ignoreHref"><span class="icon fa-key">Definition</span></a></li>
+                                <li><a href="#Design" id="research-link" class="skel-layers-ignoreHref"><span class="icon fa-bar-chart">Design</span></a></li>
+                                <li><a href="#Operation" id="research-link" class="skel-layers-ignoreHref"><span class="icon fa-bookmark">Operation</span></a></li>
+                                <li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-user">Contact</span></a></li>
+                            </ul>
+                        </nav>
+
+                </div>
+
+                <div class="bottom">
+
+                    <!-- Social Icons -->
+                        <ul class="icons">
+                            <!--< li><a href="https://www.facebook.com/jet.yu.904" class="icon fa-facebook-official" target="_blank"><span class="label">Facebook</span></a></li> -->
+                            <li><a href="../index.html" class="icon fa-user"><span class="label">Resume</span></a></li>
+                            <li><a href="mailto:r03544029@ntu.edu.tw" class="icon fa-envelope"><span class="label">Email</span></a></li> 
+                            <!-- <li><a href="https://www.linkedin.com/in/yujianyuanhaha" class="icon fa-linkedin-square" target="_blank"><span class="label">Linkedin</span></a></li> -->
+                            <li><a href="https://github.com/mirandayaoyao" class="icon fa-github" target="_blank"><span class="label" target="_blank">Github</span></a></li>
+                            <!-- <li><a href="https://www.instagram.com/jet.yu.904/" class="icon fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>  -->
+
+                        </ul>
+
+                </div>
+
+            </div>
+
+        <!-- Main -->
+            <div id="main">
+
+                <!-- Intro -->
+                    <section id="top" class="one dark cover">
+                        <div class="container">
+
+                            <header>
+                                <h2 class="alt" align="center">Magic Cube City - Public Housing for Youth in Taipei</h2>
+                                <p  align="center">Taipei, Mar, 2016</u></p>
+                                <p  align="center"><a href="https://www.dropbox.com/s/m3qipdt3j2ezrzd/housing%20en.pdf?dl=0">
+                                    [10-Min Slides]</a> 
+                                    <a href="https://www.dropbox.com/s/r148tsgbyvk6yo5/WechatIMG304.jpeg?dl=0"> [certificate]</a>   
+                                    <a href="http://www.bp.ntu.edu.tw/?p=3647"> [news link]</a>   <br>
+                                   
+                                    <br/>
+                                <p  align="center">Hackthon submission work<br />
+                                <p  align="center"> Team member: Youde Cai, Jiabi Cao, <u> Yaolin Chen</u>, Siqi Wang, Yong Zhou <br />
+                                <p  align="center">  public housing, urban revitalization, collobrate participant, social justice <br />
+                                
+                            </header>
+
+                            <footer>
+                                <a href="https://www.dropbox.com/s/m3qipdt3j2ezrzd/housing%20en.pdf?dl=0" class="button scrolly">Slides</a>
+                            </footer>
+
+                        </div>
+                    </section>
+
+                <!-- About Me -->
+
+                    <section id="overview" class="two">
+                        <div class="container">
+
+                            <header>
+                                <h2 align="center">Overview</h2>
+                            </header>
+
+
+                            <div class="11u 12u$(mobile)"><ul align="left" style="list-style-type:disc;padding-left:20px"><font size="4">
+
+                            <div class="4u 12u$(mobile)"> <img style='height: 150%; width:150%; object-fit: contain' src="images/overview.png"></div>
+
+
+
+                        </div>
+                        <hr>
+                    </section>
+
+                    </section>
+
+
+                    <section id="relatedWork" class="two">
+                        <div class="container">
+
+                            <header>
+                                <h2 align="center">Related Work</h2>
+                            </header>
+
+
+                            <div class="11u 12u$(mobile)"><ul align="left" style="list-style-type:disc;padding-left:20px"><font size="4">
+
+                            <div class="4u 12u$(mobile)"> <img style='height: 150%; width: 150%; object-fit: contain' src="images/related.png"></div>
+
+
+
+                        </div>
+                        <hr>
+                    </section>
+
+<!-- Materials -->
+
+
+
+
+                                <!-- Project -->
+                    <section id="location" class="two">
+                        <div class="container">
+
+                            <header>
+                                <h2 align="center">Location Analysis</h2>
+                            </header>
+
+
+                            <h3 align="left"><font size="5">  </font></h3>
+                            <div class="row">
+                                 <div class="4u 12u$(mobile)"> <img style='height: 95%; width: 95%; object-fit: contain' src="images/location1.png"></div>
+                                 <div class="4u 12u$(mobile)"> <img style='height: 95%; width: 95%; object-fit: contain' src="images/location2.png"></div>
+
+                                <div class="8u 12u$(mobile)">
+                                    <h4 align="left" style="line-height:120%;"><font size="4"> </font></h4>
+                                    <div style="line-height:60%;"><br></div>
+                                    <ul align="left" style="list-style-type:disc;padding-left:20px">
+                                        <font size="4">
+
+                                        </font>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+
+
+                           
+
+
+
+                        </div>
+                    </section>
+
+
+
+
+
+
+
+
+
+                <!-- Research -->
+                                      <section id="Definition" class="two">
+                        <div class="container">
+
+                            <header>
+                                <h2 align="center">Definition</h2>
+                            </header>
+
+
+                            <h3 align="left"><font size="5">  </font></h3>
+                            <div class="row">
+                                 <div class="4u 12u$(mobile)"> <img style='height: 95%; width: 95%; object-fit: contain' src="images/def1.png"></div>
+                                 <div class="4u 12u$(mobile)"> <img style='height: 95%; width: 95%; object-fit: contain' src="images/def2.png"></div>
+
+                                <div class="8u 12u$(mobile)">
+                                    <h4 align="left" style="line-height:120%;"><font size="4"> </font></h4>
+                                    <div style="line-height:60%;"><br></div>
+                                    <ul align="left" style="list-style-type:disc;padding-left:20px">
+                                        <font size="4">
+
+                                        </font>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+
+
+                           
+
+
+
+                        </div>
+                    </section>
+
+
+                <!-- Research -->
+                                      <section id="Design" class="two">
+                        <div class="container">
+
+                            <header>
+                                <h2 align="center">Design</h2>
+                            </header>
+
+
+                            <h3 align="left"><font size="5">  </font></h3>
+                            <div class="row">
+                                 <div class="4u 12u$(mobile)"> <img style='height: 95%; width: 95%; object-fit: contain' src="images/design1.png"></div>
+                                 <div class="4u 12u$(mobile)"> <img style='height: 95%; width: 95%; object-fit: contain' src="images/design2.png"></div><br>
+                                  <div class="4u 12u$(mobile)"> <img style='height: 95%; width: 95%; object-fit: contain' src="images/design3.png"></div>
+                                 <div class="4u 12u$(mobile)"> <img style='height: 95%; width: 95%; object-fit: contain' src="images/design4.png"></div><br>
+                                  <div class="4u 12u$(mobile)"> <img style='height: 95%; width: 95%; object-fit: contain' src="images/design5.png"></div>
+                                 <div class="4u 12u$(mobile)"> <img style='height: 95%; width: 95%; object-fit: contain' src="images/design6.png"></div><br>
+
+                                <div class="8u 12u$(mobile)">
+                                    <h4 align="left" style="line-height:120%;"><font size="4"> </font></h4>
+                                    <div style="line-height:60%;"><br></div>
+                                    <ul align="left" style="list-style-type:disc;padding-left:20px">
+                                        <font size="4">
+
+                                        </font>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+
+
+                           
+
+
+
+                        </div>
+                    </section>
+
+
+
+
+
+
+
+                        <section id="Operation" class="two">
+                        <div class="container">
+
+                            <header>
+                                <h2 align="center">Operation</h2>
+                            </header>
+
+
+                            <h3 align="left"><font size="5">  </font></h3>
+                            <div class="row">
+                                 <div class="4u 12u$(mobile)"> <img style='height: 95%; width: 95%; object-fit: contain' src="images/operation.png"></div>
+                                 <div class="4u 12u$(mobile)"> <img style='height: 95%; width: 95%; object-fit: contain' src="images/operation2.png"></div>
+                                 
+
+                                <div class="8u 12u$(mobile)">
+                                    <h4 align="left" style="line-height:120%;"><font size="4"> </font></h4>
+                                    <div style="line-height:60%;"><br></div>
+                                    <ul align="left" style="list-style-type:disc;padding-left:20px">
+                                        <font size="4">
+
+                                        </font>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+
+
+                           
+
+
+
+                        </div>
+                    </section>
+
+
+
+                <!-- Contact -->
+                    <section id="contact" class="seven">
+                        <div class="container">
+
+                            <header>
+                                <h2 align="center">Contact</h2>
+                            </header>
+
+                            <div class="row">
+
+                                <div class="5u 12u$(mobile)">
+                                    <div style="line-height:30%;"><br></div>
+                                    <h3 align="left"><font size="4">Translated & Presented by: Yaolin (Miranda) Chen</font></h3>
+                                    <ul class="icons" align="left">
+                                        <li><a href="../index.html" class="icon fa-user"><span class="label">Resume</span></a></li>
+										
+                                        <li><a href="https://github.com/mirandayaoyao" class="icon fa-github" target="_blank"><span class="label" target="_blank">Github</span></a></li>
+                                        <li><a href="mailto:r03544029@ntu.edu.tw" class="icon fa-envelope"><span class="label">Email</span></a></li>
+
+                                        
+                                        
+                                    </ul>
+
+                                    <p align="left"><font size="4"> Acknowledge for Comittee & Sponsors:
+                                        <br> 青年發展署</font> 
+                                        <br> Hackthon</font>  
+                                        <br> 衛斯理鐘</font>
+                                        <br> 青創培養皿</font>
+                                        
+                                        
+                                        
+                                    </font></p>
+
+                            </div>
+                                <div class="3u 12u$(mobile)">
+                            </div>
+                                <div class="3u 12u$(mobile)">
+                                     <a class="image fit"><img src="./images/award1.jpg" /></a> 
+                                     <a class="image fit"><img src="./images/award2.jpg" /></a> 
+                                </div>
+
+                                <div image align="right">
+                                    <div class="4u 12u$(mobile)">
+                                        <img style='height: 40%; width: 40%; object-fit: contain' src="images/logo-ntu.jpg" >
+                                    </div>
+                                </div>
+
+
+                                <footer>
+                                <a href="../index.html" class="button scrolly">Back to Main</a>
+                            </footer>
+
+                    </section>
+            </div>
+
+        <!-- Footer -->
+            <div id="footer">
+
+                <!-- Copyright -->
+                    <ul class="copyright">
+                        <li>Copyright &copy; 2018 Yaolin (Miranda) Chen</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                    </ul>
+
+            </div>
+
+        <!-- Scripts -->
+            <script src="assets/js/jquery.min.js"></script>
+            <script src="assets/js/jquery.scrolly.min.js"></script>
+            <script src="assets/js/jquery.scrollzer.min.js"></script>
+            <script src="assets/js/skel.min.js"></script>
+            <script src="assets/js/util.js"></script>
+            <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+            <script src="assets/js/main.js"></script>
+
+
+            <!-- Global site tag (gtag.js) - Google Analytics -->
+            <!--need to update to computing.vt.edus -->
+            <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126742429-1"></script>
+            <script>
+                window.dataLayer = window.dataLayer || [];
+                function gtag() { dataLayer.push(arguments); }
+                gtag('js', new Date());
+
+                gtag('config', 'UA-126742429-1');
+            </script>
+
+
+    </body>
+</html>
